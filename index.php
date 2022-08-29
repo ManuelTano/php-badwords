@@ -1,12 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<!-- Creiamo una variabile con un paragrafo di testo a scelta.
+Stampiamo a schermo il paragrafo e la sua lunghezza.
+Passiamo sulla barra del browser in query string una parola che vogliamo censurare
+Recuperiamo la parola da censurare via PHP e  sostituiamo tutte le sue occorrenze nel paragrafo con 3 asterischi.
+Stampiamo di nuovo il paragrafo e la sua nuova lunghezza. -->
+
+<?php
+
+$text= 'Ennò ennò, rischia di rovinare una carriera con un gesto indecente Zinedine Zidane.';
+
+echo $text;
+echo '<br/> <br/>';
+echo strlen($text);
+
+?>
